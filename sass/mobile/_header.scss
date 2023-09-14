@@ -1,13 +1,10 @@
-
-
-.nav{
-    display:flex;
-    justify-content:space-around;
-}
-
 header{
     width: 375px;
     height: 538px;
+    .nav{
+        display:flex;
+        justify-content:space-around;
+    }
     .titre{
         width: auto;
         height: auto;

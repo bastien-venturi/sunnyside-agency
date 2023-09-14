@@ -1,18 +1,19 @@
 header {
-  background-image: url(../../ressources/images/photos/image-header.jpg);
+  background-image: url(../ressources/images/photos/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 375px;
   height: 538px;
-  background-color: brown;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-around;
 }
 
 header {
   width: 375px;
   height: 538px;
+}
+header .nav {
+  display: flex;
+  justify-content: space-around;
 }
 header .titre {
   width: auto;
@@ -28,10 +29,6 @@ header p {
 header .arrow {
   width: 30px;
   height: 107.48px;
-}
-
-main {
-  width: 375px;
 }
 
 .section1 {
@@ -107,14 +104,10 @@ main {
 }
 .section3 img {
   z-index: 1;
-  width: 375px;
-  height: 600px;
 }
 .section3 .text {
   border: 2px solid red;
   text-align: center;
-  width: 327px;
-  height: 143px;
   z-index: 2;
 }
 
@@ -186,27 +179,31 @@ main {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 375px;
-  height: 350px;
+  width: 100%;
   border: 2px solid red;
   background-color: #90D4C6;
 }
-footer .footer {
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 297px;
-  height: 206px;
+footer svg {
+  text-align: center;
+  margin: 0 20px 0 20px;
 }
-footer .footer-text {
+footer .links {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+footer .links a {
+  margin: 0 20px 0 20px;
+  text-decoration: none;
+}
 footer .social {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin: 0 20px 0 20px;
+}
+footer .social img {
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
