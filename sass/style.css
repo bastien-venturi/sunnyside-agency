@@ -1,1 +1,10 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  width: 375px;
+  height: 538px;
+}
+
+header {
+  background-image: url(../../ressources/images/photos/image-gallery-orange.jpg);
+  width: 375px;
+  height: 538px;
+}/*# sourceMappingURL=style.css.map */
