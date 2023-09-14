@@ -1,0 +1,12 @@
+.section6{
+    display:grid;
+    grid-template-columns:auto 1fr;
+    grid-template-rows:auto 1fr;
+    img{
+        width: 188px;
+        height: 188px;
+        display:grid;
+        grid-template-columns:auto 1fr
+    }
+    
+}

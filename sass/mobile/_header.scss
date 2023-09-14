@@ -1,4 +1,27 @@
+
+
+.nav{
+    display:flex;
+    justify-content:space-around;
+}
+
 header{
     width: 375px;
     height: 538px;
+    .titre{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    h1{
+        color: white;
+    }
+    
+    p{
+        display: none;
+    }
+    .arrow{
+        width: 30px;
+        height: 107.48px;
+    }
 }

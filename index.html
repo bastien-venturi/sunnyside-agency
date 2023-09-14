@@ -2,96 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="./sass/style.scss">
+  <link rel="preconnect" href="https://fonts.google.com/specimen/Barlow">
+  <link rel="preconnect" href="https://fonts.google.com/specimen/Fraunces">
+  <link rel="stylesheet" href="./sass/style.css">
   <title>Sunnyside agency landing page</title>
 </head>
 
 <body>
-  <header>
-    <img src="./ressources/images/logo.svg" alt="sunnyside">
+  <header> 
     <div class="nav">
-    <p>About</p>
-    <p>Services</p>
-    <p>Projects</p>
-    <button class="btn-contact">Contact</button>
+    <img src="./ressources/images/logo.svg" alt="sunnyside">
+      <p>About</p>
+      <p>Services</p>
+      <p>Projects</p>
+      <button class="burger"><img src="./ressources/images/icons/icon-hamburger.svg" alt="burger"></button>
     </div>
-    <img src="./ressources/images/icons/icon-hamburger.svg" alt="burger">
-    <h1>We are creatives</h1>
-    <img src="./ressources/images/icons/icon-arrow-down.svg" alt="arrow">
+    <div class="titre">
+      <h1>We are creatives</h1>
+      <img class="arrow" src="./ressources/images/icons/icon-arrow-down.svg" alt="arrow">
+    </div>
   </header>
 
   <main>
-    <section>
-      <img src="" alt="egg">
+    <section class="section1">   <!-- egg -->
+      <img src="./ressources/images/photos/image-transform.jpg" alt="egg">
+      <div class="text">
       <h2>Transform your brand</h2>
       <p>We are a full-service creative agency specializing in helping brands grow fast. 
       Engage your clients through compelling visuals that do most of the marketing for you.</p>
       <a href="#">Learn more</a>
+      </div>
     </section>
 
-    <section>
-      <img src="" alt="glass">
+    <section class="section2">   <!-- glass -->
+      <img src="./ressources/images/photos/image-stand-out.jpg" alt="glass">
+      <div class="text">
       <h2>Stand out to the right audience</h2>
       <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
       <a href="#">Learn more</a>
+      </div>
     </section>
 
-    <section>
-      <img src="" alt="cherry">
+    <section  class="section3">  <!-- cherry -->
+      <img src="./ressources/images/photos/image-graphic-design.jpg" alt="cherry">
+      <div class="text">
       <h2>Graphic design</h2>
       <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+      </div>
     </section>
 
-    <section>
-      <img src="" alt="orange">
+    <section  class="section4">  <!-- mandarine -->
+      <img src="./ressources/images/photos/image-photography.jpg" alt="mandarine">
+      <div class="text">
       <h2>Photography</h2>
       <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </div>
     </section>
 
-    <section>
+    <section  class="section5">  <!-- people -->
       <h2>Client testimonials</h2>
-
-      <div>
-        <img src="" alt="Emily">
+      <div class="card">
+        <img src="./ressources/images/people/image-emily.jpg" alt="Emily">
         <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-        <h3>Emily R.</h3>
-        <h4>Marketing Director</h4>
+        <div class="job">
+          <h3>Emily R.</h3>
+          <h4>Marketing Director</h4>
+        </div>
       </div>
 
-      <div>
-        <img src="" alt="Thomas">
+      <div class="card">
+        <img src="./ressources/images/people/image-Thomas.jpg" alt="Thomas">
         <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-        <h3>Thomas S.</h3>
-        <h4>Chief Operating Officer</h4>
+        <div class="job">
+          <h3>Thomas S.</h3>
+          <h4>Chief Operating Officer</h4>
+        </div>
       </div>
 
-      <div>
-        <img src="" alt="Jennie">
+      <div class="card">
+        <img src="./ressources/images/people/image-Jennie.jpg" alt="Jennie">
         <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-        <h3>Jennie F.</h3>
-        <h4>Business Owner</h4>
+        <div class="job">
+          <h3>Jennie F.</h3>
+          <h4>Business Owner</h4>
+        </div>
+
       </div>
     </section>
 
-    <section>
-      <img src="" alt="milk">
-      <img src="" alt="plate">
-      <img src="" alt="cone">
-      <img src="" alt="sugar">
+    <section  class="section6">  <!-- 4 photos -->
+      <img src="./ressources/images/photos/image-gallery-milkbottles.jpg" alt="milk">
+      <img src="./ressources/images/photos/image-gallery-orange.jpg" alt="plate">
+      <img src="./ressources/images/photos/image-gallery-cone.jpg" alt="cone">
+      <img src="./ressources/images/photos/image-gallery-sugarcubes.jpg" alt="sugar">
     </section>
   </main>
 
   <footer>
-    <img src="" alt="sunnyside">
-    <p>About</p>
-    <p>Services</p>
-    <p>Projects</p>
-    <p>Contact</p>
-    <img src="" alt="face">
-    <img src="" alt="insta">
-    <img src="" alt="twiter">
-    <img src="" alt="pint">
+    <div class="footer">
+      <img src="./ressources/images/logo.svg" alt="sunnyside">
+      <div class="footer-text">
+        <p>About</p>
+        <p>Services</p>
+        <p>Projects</p>
+      </div>
+      <div class="social">
+        <img src="./ressources/images/icons/icon-facebook.svg" alt="face">
+        <img src="./ressources/images/icons/icon-instagram.svg" alt="insta">
+        <img src="./ressources/images/icons/icon-twitter.svg" alt="twiter">
+        <img src="./ressources/images/icons/icon-pinterest.svg" alt="pint">  
+    </div>
+  </div>
   </footer>
 </body>
 </html>
