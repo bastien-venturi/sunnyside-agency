@@ -4,8 +4,7 @@
     align-items:center;
     h2{
         border: 2px solid red;
-        width: 279px;
-        height: 20px;
+        
         text-align:center;
     }
     .card{
@@ -13,23 +12,18 @@
         flex-direction:column;
         align-items:center;
         border: 2px solid red;
-        width: 327px;
-        height: 288px;
         img{
             border-radius: 90px;
-            width: 72px;
-            height: 72px;
+            margin: 20px 0 20px 0;
         }
         p{
-            width: 327px;
-            height: 96px;
-            line-height: 32px;
+            line-height: 1.5;
             text-align:center;
+            margin: 20px;
         }
         .job{
-            width: 203px;
-            height: 56px;
             text-align:center;
+            margin: 20px 0 20px 0;
         }
         
     }

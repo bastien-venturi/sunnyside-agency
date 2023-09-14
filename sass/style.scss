@@ -1,8 +1,10 @@
+@import './components/reset';
+
 @import './components/background';
 @import './components/typo';
 
+@import './mobile/body';
 @import './mobile/header';
-
 @import './mobile/main';
 @import './mobile/main-section1';
 @import './mobile/main-section2';

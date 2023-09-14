@@ -1,3 +1,5 @@
-$_font-titre: 'Barlow';
-$_font-p: 'Fraunces';
+@import url("https://fonts.google.com/specimen/Fraunces");
+@import url('https://fonts.google.com/specimen/Barlow');
 
+$_font-p: 'Fraunces', serif;
+$_font-titre: 'Barlow', sans-serif;
