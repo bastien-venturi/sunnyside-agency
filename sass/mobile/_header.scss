@@ -1,12 +1,26 @@
 header{
+    background-image: url(../ressources/images/photos/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 538px;
+    width: 100%;
+    position: relative;
     .nav{
+        position: relative;
+        width: 100%;
         display:flex;
         justify-content:space-between;
-        padding: 20px;
-        .burger{
+
+        .menuburger{
             background-color: transparent;
             border:none;
+            display: block;
+            margin: 10px;
+        }
+        .logo{
+            margin: 10px;
+            height: 24px;
         }
     }
     .titre{
@@ -16,6 +30,7 @@ header{
         h1{
             color: white;
             text-align: center;
+            text-transform: uppercase;
             margin: 40px 0;
             letter-spacing: 8px;
             line-height: 1.25;
@@ -29,15 +44,7 @@ header{
             align-self: center;
         }
     }
-    h1{
-        color: white;
-        text-align: center;
-    }
     .headerlinks{
         display: none;
-    }
-    .arrow{
-        width: 30px;
-        align-self: center;
     }
 }
