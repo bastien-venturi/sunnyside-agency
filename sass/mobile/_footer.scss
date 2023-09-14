@@ -4,26 +4,29 @@ footer{
     justify-content:center;
     align-items:center;
     width: 100%;
-    border: 2px solid red;
     background-color: #90D4C6; 
+    
     svg{
         text-align: center;
-        margin: 0 20px 0 20px;
+        margin: 40px 40px 20px 40px;
 
     }
     .links{
         display:flex;
         justify-content:space-around;
         align-items:center;
+        
         a{
-            margin: 0 20px 0 20px;
+            margin: 20px;
             text-decoration: none;
+            color: #37806f;
+            opacity: 0.75;
         }
     }
     .social{
         display:flex;
         justify-content:center;
-        margin: 0 20px 0 20px; 
+        margin: 40px 20px 40px 20px; 
         img{
             margin: 10px;
         }       

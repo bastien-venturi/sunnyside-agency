@@ -1,7 +1,31 @@
-h1, h2, h3{
+h1, h2, h3, .learnmore{
     font-family: $_font-titre;
 }
 
-h4, p{
+h4, p, .links{
     font-family: $_font-p;
 }
+
+
+h1{
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.learnmore{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
