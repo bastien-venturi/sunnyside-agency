@@ -103,6 +103,9 @@ header .nav .logo {
   margin: 10px;
   height: 24px;
 }
+header .nav .headerlinks {
+  display: none;
+}
 header .titre {
   display: flex;
   flex-direction: column;
@@ -116,15 +119,9 @@ header .titre h1 {
   letter-spacing: 8px;
   line-height: 1.25;
 }
-header .titre p {
-  display: none;
-}
 header .titre .arrow {
   width: 30px;
   align-self: center;
-}
-header .headerlinks {
-  display: none;
 }
 
 .eggglass {

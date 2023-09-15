@@ -1,0 +1,14 @@
+.gallery{
+        display: flex;
+        flex-direction: row;
+    div{
+        display:flex;
+        flex-direction:column;
+        width: 50%;
+        img{
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+ 
+}
