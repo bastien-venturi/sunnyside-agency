@@ -54,7 +54,7 @@ h1, h2, h3, .learnmore {
   font-family: "Fraunces", serif;
 }
 
-h4, p, .links {
+h4, p, .footerlinks, .headerlinks {
   font-family: "Barlow", sans-serif;
 }
 
@@ -92,6 +92,7 @@ header .nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 20px 10px 0 10px;
 }
 header .nav .menuburger {
   background-color: transparent;
@@ -115,13 +116,16 @@ header .titre h1 {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  margin: 40px 0;
+  margin: 40px 0 60px 0;
   letter-spacing: 8px;
   line-height: 1.25;
 }
 header .titre .arrow {
   width: 30px;
   align-self: center;
+}
+header .headerlinks {
+  display: none;
 }
 
 .eggglass {
@@ -304,4 +308,209 @@ footer .social {
 }
 footer .social img {
   margin: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  header .nav .menuburger {
+    display: none;
+  }
+  header .nav .headerlinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  header .nav .headerlinks a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  header .nav .headerlinks .contact {
+    background-color: white;
+    border-radius: 10px;
+    height: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  header .titre {
+    margin-top: 60px;
+  }
+  .eggglass {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .eggglass .egg, .eggglass .glass {
+    width: 100%;
+  }
+  .eggglass img {
+    height: 325px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .eggglass .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px;
+    height: 309px;
+  }
+  .eggglass h2 {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 39.46px;
+    color: #24303E;
+    line-height: 39.46px;
+  }
+  .eggglass p {
+    text-align: center;
+    margin: 20px 0;
+    padding: 5px;
+    opacity: 0.5;
+    line-height: 30px;
+  }
+  .eggglass .learnmore {
+    position: relative;
+    text-align: center;
+    height: 25px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #24303E;
+    line-height: 25px;
+  }
+  .eggglass .learnmore::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: #FE7766;
+    border-radius: 25px;
+    z-index: -1;
+  }
+  .cherrymandarine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cherrymandarine .cherry, .cherrymandarine .mandarine {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .cherrymandarine .cherry img, .cherrymandarine .mandarine img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+    z-index: 1;
+    height: 600px;
+  }
+  .cherrymandarine .cherry .text, .cherrymandarine .mandarine .text {
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.6;
+    height: 250px;
+  }
+  .cherrymandarine .cherry .text h2, .cherrymandarine .mandarine .text h2 {
+    margin: 40px;
+  }
+  .cherrymandarine .cherry .text p, .cherrymandarine .mandarine .text p {
+    margin: 20px;
+    line-height: 27px;
+  }
+  .clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .clients h2 {
+    text-align: center;
+    opacity: 0.5;
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+  }
+  .clients .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .clients .card img {
+    border-radius: 90px;
+    margin: 20px 0 20px 0;
+    width: 20%;
+  }
+  .clients .card p {
+    line-height: 2;
+    text-align: center;
+    margin: 20px;
+    color: #5B636D;
+  }
+  .clients .card .job {
+    text-align: center;
+    margin: 20px 0 20px 0;
+  }
+  .clients .card .job h3 {
+    margin-bottom: 20Px;
+  }
+  .clients .card .job h4 {
+    margin-bottom: 40px;
+    opacity: 0.5;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: row;
+  }
+  .gallery div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .gallery div img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #90D4C6;
+  }
+  footer svg {
+    text-align: center;
+    margin: 40px 40px 20px 40px;
+  }
+  footer .footerlinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .footerlinks a {
+    margin: 20px;
+    text-decoration: none;
+    color: #37806f;
+    opacity: 0.75;
+  }
+  footer .social {
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px 40px 20px;
+  }
+  footer .social img {
+    margin: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

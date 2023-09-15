@@ -11,6 +11,7 @@ header{
         width: 100%;
         display:flex;
         justify-content:space-between;
+        padding: 20px 10px 0 10px;
 
         .menuburger{
             background-color: transparent;
@@ -25,8 +26,8 @@ header{
         .headerlinks{
             display: none;
         }
-    }
-    .titre{
+        }
+.titre{
         display: flex;
         flex-direction: column;
         justify-content:center;
@@ -34,14 +35,17 @@ header{
             color: white;
             text-align: center;
             text-transform: uppercase;
-            margin: 40px 0;
+            margin: 40px 0 60px 0;
             letter-spacing: 8px;
             line-height: 1.25;
         }
         .arrow{
-            width: 30px;
-            align-self: center;
+        width: 30px;
+        align-self: center;
         }
     }
-    
+    .headerlinks{
+        display: none;
+    }
 }
+
