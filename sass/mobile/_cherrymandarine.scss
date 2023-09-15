@@ -9,16 +9,16 @@
         width: 100%;
         img{
          object-fit: cover;
+         object-position: top;
          z-index: 1;
          height: 600px;
-         object-position: top;
         }
         .text{
             text-align: center;
             z-index: 2;
             position: absolute;
             bottom: 0;
-            opacity: 0.75;
+            opacity: 0.60;
             height: 250px;
             h2{
             margin: 40px;

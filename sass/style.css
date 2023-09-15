@@ -128,12 +128,17 @@ header .headerlinks {
 }
 
 .eggglass {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.eggglass .egg, .eggglass .glass {
+  width: 100%;
+}
 .eggglass img {
   height: 325px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -195,17 +200,17 @@ header .headerlinks {
 .cherrymandarine .cherry img, .cherrymandarine .mandarine img {
   -o-object-fit: cover;
      object-fit: cover;
-  z-index: 1;
-  height: 600px;
   -o-object-position: top;
      object-position: top;
+  z-index: 1;
+  height: 600px;
 }
 .cherrymandarine .cherry .text, .cherrymandarine .mandarine .text {
   text-align: center;
   z-index: 2;
   position: absolute;
   bottom: 0;
-  opacity: 0.75;
+  opacity: 0.6;
   height: 250px;
 }
 .cherrymandarine .cherry .text h2, .cherrymandarine .mandarine .text h2 {
