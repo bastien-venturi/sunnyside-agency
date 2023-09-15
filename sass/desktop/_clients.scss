@@ -1,47 +1,8 @@
 .clients{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    h2{
-        text-align:center;
-        opacity: 0.5;
-        margin: 40px 0;
-        text-transform: uppercase;
-        font-size: 16px;
-        letter-spacing: 4px;
-
-    }
-    .card{
+    .profil{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
         align-items:center;
-        img{
-            border-radius: 90px;
-            margin: 20px 0 20px 0;
-            width: 20%;
-
+            .card{}        
         }
-        p{
-            line-height: 2;
-            text-align:center;
-            margin: 20px;
-            color: #5B636D;
-        }
-        .job{
-            text-align:center;
-            margin: 20px 0 20px 0;
-            h3{
-                margin-bottom: 20Px;
-            }
-            h4{
-                margin-bottom: 40px;
-                opacity: 0.50;
-            }
-
-        }
-        
-    }
-
-    
-    
 }

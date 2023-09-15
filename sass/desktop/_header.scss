@@ -15,12 +15,14 @@ header{
                 }
                 .contact{
                     background-color: white;
-                    border-radius: 10px;
+                    text-transform:lowercase;
+                    border-radius: 20px;
                     height: 25px;
                     color: black;
                     display:flex;
                     align-items: center;
-                    padding: 5px;
+                    padding: 10px 20px;
+
                 }
             }
         }

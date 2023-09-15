@@ -1,9 +1,9 @@
 .gallery{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     div{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
         width: 50%;
         img{
             width: 100%;
