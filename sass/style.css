@@ -138,6 +138,7 @@ header .headerlinks {
      object-fit: cover;
 }
 .eggglass .text {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,6 +160,7 @@ header .headerlinks {
   line-height: 30px;
 }
 .eggglass .learnmore {
+  position: relative;
   text-align: center;
   height: 25px;
   margin-bottom: 40px;
@@ -166,6 +168,17 @@ header .headerlinks {
   text-transform: uppercase;
   color: #24303E;
   line-height: 25px;
+}
+.eggglass .learnmore::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #FE7766;
+  border-radius: 25px;
+  z-index: -1;
 }
 
 .cherrymandarine {
