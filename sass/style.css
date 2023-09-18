@@ -373,14 +373,23 @@ footer .social img {
     height: 286px;
   }
   .cherrymandarine {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    width: 100%;
   }
   .cherrymandarine .cherry, .cherrymandarine .mandarine {
     position: relative;
     display: flex;
     flex-direction: column;
+  }
+  .cherrymandarine .cherry .text, .cherrymandarine .mandarine .text {
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.6;
+    width: 100%;
   }
   .clients .profil {
     display: flex;
@@ -390,6 +399,11 @@ footer .social img {
   .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .gallery div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
   }
   .gallery div img {
     width: 100%;

@@ -1,11 +1,22 @@
 .cherrymandarine{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items:center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
     .cherry, .mandarine{
         position: relative;
         display: flex;
         flex-direction:column;
+        .text {
+            text-align: center;
+            z-index: 2;
+            position: absolute;
+            bottom: 0;
+            opacity: 0.6;
+            width: 100%;
+        }
     }
 
 }
+
+
