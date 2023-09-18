@@ -2,21 +2,26 @@
     position: relative;
     align-items:center;
     .egg{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        img{
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            order: 1;
 
+        }
     }
     .glass{
-        width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    img{
-        height: 325px;
-        width: 100%;
-        object-fit: cover;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        img{
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
     }
     .text{
         position: relative;
@@ -24,45 +29,11 @@
         flex-direction:column;
         align-items:center;
         margin: 40px 20px ;
-        height: 309px;
-        
-        }
-        h2{
-            text-align: center;
-            margin-top: 40px;
-            line-height: 39.46px;
-            color: #24303E;
-            line-height: 39.46px;
-        }
-        p{
-            text-align: center;
-            margin: 20px 0;
-            padding: 5px;
-            opacity: 0.5;
-            line-height: 30px;
+        height: 286px;
         }
 
-        .learnmore{
-            position:relative;
-            text-align: center;
-            height: 25px;
-            margin-bottom:  40px;
-            text-decoration:none;
-            text-transform: uppercase;
-            color: #24303E;
-            line-height: 25px;            
-        }
-        .learnmore::after { 
-            content: " ";
-            position: absolute;
-            bottom: 0;
-            display:block;
-            width: 100%;
-            height:10px;
-            background-color: #FE7766;
-            border-radius: 25px;
-            z-index: -1;
-          }
         
 }
+
+
 

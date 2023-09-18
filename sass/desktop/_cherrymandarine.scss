@@ -1,33 +1,11 @@
 .cherrymandarine{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     align-items:center;
     .cherry, .mandarine{
         position: relative;
         display: flex;
         flex-direction:column;
-        width: 100%;
-        img{
-         object-fit: cover;
-         object-position: top;
-         z-index: 1;
-         height: 100%;
-        }
-        .text{
-            text-align: center;
-            z-index: 2;
-            position: absolute;
-            bottom: 0;
-            opacity: 0.60;
-            height: 250px;
-            h2{
-            margin: 40px;
-            }
-            p{
-            margin: 20px;
-            line-height: 27px;
-            }
-        }
     }
 
 }

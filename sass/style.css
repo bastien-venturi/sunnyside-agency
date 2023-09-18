@@ -73,7 +73,7 @@ h3 {
   font-size: 18px;
 }
 
-.learnmore {
+.learnmoreegg, .learnmoreglass {
   font-weight: 900;
   font-size: 15px;
 }
@@ -342,18 +342,25 @@ footer .social img {
     align-items: center;
   }
   .eggglass .egg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .eggglass .egg img {
     width: 100%;
-    display: flex;
-    flex-direction: row;
+    height: 600px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    order: 1;
   }
   .eggglass .glass {
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
-  .eggglass img {
-    height: 325px;
+  .eggglass .glass img {
     width: 100%;
+    height: 600px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -363,42 +370,7 @@ footer .social img {
     flex-direction: column;
     align-items: center;
     margin: 40px 20px;
-    height: 309px;
-  }
-  .eggglass h2 {
-    text-align: center;
-    margin-top: 40px;
-    line-height: 39.46px;
-    color: #24303E;
-    line-height: 39.46px;
-  }
-  .eggglass p {
-    text-align: center;
-    margin: 20px 0;
-    padding: 5px;
-    opacity: 0.5;
-    line-height: 30px;
-  }
-  .eggglass .learnmore {
-    position: relative;
-    text-align: center;
-    height: 25px;
-    margin-bottom: 40px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #24303E;
-    line-height: 25px;
-  }
-  .eggglass .learnmore::after {
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 10px;
-    background-color: #FE7766;
-    border-radius: 25px;
-    z-index: -1;
+    height: 286px;
   }
   .cherrymandarine {
     display: grid;
@@ -409,30 +381,6 @@ footer .social img {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
-  }
-  .cherrymandarine .cherry img, .cherrymandarine .mandarine img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: top;
-       object-position: top;
-    z-index: 1;
-    height: 100%;
-  }
-  .cherrymandarine .cherry .text, .cherrymandarine .mandarine .text {
-    text-align: center;
-    z-index: 2;
-    position: absolute;
-    bottom: 0;
-    opacity: 0.6;
-    height: 250px;
-  }
-  .cherrymandarine .cherry .text h2, .cherrymandarine .mandarine .text h2 {
-    margin: 40px;
-  }
-  .cherrymandarine .cherry .text p, .cherrymandarine .mandarine .text p {
-    margin: 20px;
-    line-height: 27px;
   }
   .clients .profil {
     display: flex;
@@ -440,14 +388,14 @@ footer .social img {
     align-items: center;
   }
   .gallery {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
-  .gallery img {
+  .gallery div img {
     width: 100%;
     height: 447px;
-    -o-object-fit: contain;
-       object-fit: contain;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   footer {
     display: flex;
@@ -456,6 +404,7 @@ footer .social img {
     align-items: center;
     width: 100%;
     background-color: #90D4C6;
+    height: 350px;
   }
   footer svg {
     text-align: center;
