@@ -151,21 +151,21 @@ header .headerlinks {
   margin: 40px 20px;
   height: 309px;
 }
-.eggglass h2 {
+.eggglass .text h2 {
   text-align: center;
   margin-top: 40px;
   line-height: 39.46px;
   color: #24303E;
   line-height: 39.46px;
 }
-.eggglass p {
+.eggglass .text p {
   text-align: center;
   margin: 20px 0;
   padding: 5px;
   opacity: 0.5;
   line-height: 30px;
 }
-.eggglass .learnmore {
+.eggglass .text .learnmoreegg, .eggglass .text .learnmoreglass {
   position: relative;
   text-align: center;
   height: 25px;
@@ -175,7 +175,7 @@ header .headerlinks {
   color: #24303E;
   line-height: 25px;
 }
-.eggglass .learnmore::after {
+.eggglass .text .learnmoreegg::after {
   content: " ";
   position: absolute;
   bottom: 0;
@@ -183,6 +183,17 @@ header .headerlinks {
   width: 100%;
   height: 10px;
   background-color: #FE7766;
+  border-radius: 25px;
+  z-index: -1;
+}
+.eggglass .text .learnmoreglass::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #FAD400;
   border-radius: 25px;
   z-index: -1;
 }
